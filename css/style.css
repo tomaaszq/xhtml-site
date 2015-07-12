@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	background: black;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: black;
+}
+
+img {
+	border:0;
+}
+
+ul {
+	list-style-image: url("../img/arrow.gif");
+	line-height: 1.4;
+	list-style-position: outside;
+}
+
+#wrapper {
+	width: 920px;
+	margin: 0 auto ;
+}
+#top {
+	background-image: url("../img/top.jpg");
+	height: 121px;
+	position: relative;
+	border-top: 5px white solid;
+}
+#logo h1 {
+	background: url("../img/logo.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 150px;
+	top: 45px;
+}
+#logo h1 a {
+	display: block;
+	text-indent: -999px;
+}
+#nav {
+	background: #515151;
+	border-top: 1px gray solid;
+}
+#nav ul {
+	margin: 0;
+	padding: 10px 0;	
+}
+#nav ul li {
+	display: inline;
+	list-style: none;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 11px 10px;
+}
+#nav ul li a:hover {
+	background: #fff;
+	color:#000;
+}
+#numer {
+	margin: -24px 13px 12px 0;
+	text-align: right;
+	color: #fff;
+	background: url("../img/telefon.gif") right 50% no-repeat;
+	padding-right: 30px;
+}
+#content {
+	background: #fff;
+	width: 100%;
+	padding-top: 1px;
+	float:left;
+	overflow: auto;
+}
+#content h3 {
+	margin: 1em;
+	font-size: 1.1em;
+}
+#content h2 {
+	display: block;
+	width: 260px;
+	font-size: 1.3em;
+	padding: 1em;
+	margin: 2em 0 1.5em 0;
+	background: url("../img/kreski.gif");
+}
+#content p {
+	margin:0;
+	padding: 1em;
+	line-height: 1.5;
+	letter-spacing: 0.4px;
+}
+#content #c1 {
+	width: 600px;
+	float: left;
+	background: #fff;
+}
+#content #obrazki {
+	padding: 1em;
+	text-align: center;
+}
+#content #obrazki img {
+	padding: 0 1em;
+}
+.lista-linkow li {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 0.9em;
+	border-top: 1px gray dashed;
+}
+.lista-linkow {
+	list-style-image: none;
+	list-style-type: none;
+}
+#content #c2 h2 {
+	margin: 0;
+	padding: 1em;
+	font-size: 1.1em;
+	display:block;
+	background-image: none;
+	border-left: 3px #999 solid;
+}
+#content #c2 {
+	width: 320px;
+	background: url("../img/kreski2.gif");
+	float:right;
+}
+#content #c2 #c2-wrapper {
+	background: #fff;
+	margin-left: 23px;
+}
+#footer {
+	background: #343434;
+	width: 920px;
+	color:white;
+	float:left;
+}
+#copyright {
+	font-size: 0.8em;
+	width: 460px;
+	float:left;
+}
+#footer-menu {
+	width:460px;
+	text-align: right;
+	float:right;
+}
+#footer-menu a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.8em;
+	padding: 0 5px;
+}
+
+@media (max-width: 959px) {
+	#content #c2 {
+		float: none;
+	}
+	#content #c1 {
+		float: none;
+	}
+	#content {
+		float:none;
+	}
+}
+@media (max-width: 640px) {
+#nav ul li {
+	display: block;
+	list-style: none;
+}
+	}
